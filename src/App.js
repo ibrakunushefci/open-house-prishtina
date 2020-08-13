@@ -11,22 +11,26 @@ import {
   Route
 } from "react-router-dom";
 
+import './App.scss'
+
 function App() {
   return (
-    <Container fluid>
-      <Router>
-        <AppNavbar />
+    <div className="App">
+      <Container>
+        <Router>
+          <AppNavbar />
 
-        <Switch>
-          <Route path="/news">
-            <News />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-        </Switch>
-      </Router>
-    </Container>
+          <Switch>
+            <Route path="/news">
+              <News />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+          </Switch>
+        </Router>
+      </Container>
+    </div>
   );
 }
 
