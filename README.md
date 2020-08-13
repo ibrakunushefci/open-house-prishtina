@@ -1,4 +1,4 @@
-Demo: [Open House Prishtina](https://github.com/facebook/create-react-app).
+Demo: [Open House Prishtina](https://open-house-prishtina.netlify.app/news).
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
