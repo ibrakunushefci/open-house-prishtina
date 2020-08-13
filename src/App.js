@@ -19,7 +19,7 @@ function App() {
           <AppNavbar />
 
           <Switch>
-            <Route path="/news">
+            <Route exact path="/">
               <News />
             </Route>
           </Switch>

@@ -12,7 +12,7 @@ const AppNavbar = () => (
             <NavLink to="/projects" activeClassName="selected" className="nav-link">Projects</NavLink>
             <NavLink to="/services" activeClassName="selected" className="nav-link">Services</NavLink>
             <NavLink to="/about" activeClassName="selected" className="nav-link">About</NavLink>
-            <NavLink to="/news" activeClassName="selected" className="nav-link">News</NavLink>
+            <NavLink to="/" activeClassName="selected" className="nav-link">News</NavLink>
             <NavLink to="/contact" activeClassName="selected" className="nav-link">Contact</NavLink>
          </Nav>
       </Navbar.Collapse>
