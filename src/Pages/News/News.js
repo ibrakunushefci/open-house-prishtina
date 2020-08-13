@@ -25,9 +25,9 @@ const News = () => (
          </Col>
 
          <Col sm={12} className="socialMedia">
-            <span><a href="#" rel="noopener">Facebook</a></span>
-            <span><a href="#" rel="noopener">Instagram</a></span>
-            <span><a href="#" rel="noopener">Youtube</a></span>
+            <span><a href="#Facebook" rel="noopener">Facebook</a></span>
+            <span><a href="#Instagram" rel="noopener">Instagram</a></span>
+            <span><a href="#Youtube" rel="noopener">Youtube</a></span>
          </Col>
 
          <hr />
@@ -44,7 +44,7 @@ const News = () => (
             </div>
          </Col>
 
-         <Col md={6}>
+         <Col sm={6}>
             <div className="contactUs-wrapper">
                <h3>Contact Us</h3>
 
@@ -52,18 +52,18 @@ const News = () => (
                <p>10000 Pristina, Kosovo</p>
                <p>+383 49 123 456</p>
                <p>info@archides.com</p>
-               <p className="viewOnMap"><a href="#" rel="noopener">View on map</a></p>
+               <p className="viewOnMap"><a href="#view" rel="noopener">View on map</a></p>
             </div>
          </Col>
 
-         <Col md={6}>
+         <Col sm={6}>
             <div className="followUs-wrapper">
                <h3>Follow Us</h3>
 
                <ul>
-                  <li><a href="#" rel="noopener">Facebook</a></li>
-                  <li><a href="#" rel="noopener">Instagram</a></li>
-                  <li><a href="#" rel="noopener">Youtube</a></li>
+                  <li><a href="#Facebook" rel="noopener">Facebook</a></li>
+                  <li><a href="#Instagram" rel="noopener">Instagram</a></li>
+                  <li><a href="#Youtube" rel="noopener">Youtube</a></li>
                </ul>
 
                <p>archides @2018</p>

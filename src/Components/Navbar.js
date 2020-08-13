@@ -1,19 +1,19 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import './Navbar.styles.scss';
 
 const AppNavbar = () => (
-   <Navbar expand="lg">
+   <Navbar className="navbar-dark" expand="sm">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
          <Nav className="mr-auto">
-            <Link to="/projects" className="nav-link">Projects</Link>
-            <Link to="/services" className="nav-link">Services</Link>
-            <Link to="/about" className="nav-link">About</Link>
-            <Link to="/news" className="nav-link">News</Link>
-            <Link to="/contact" className="nav-link">Contact</Link>
+            <NavLink to="/projects" activeClassName="selected" className="nav-link">Projects</NavLink>
+            <NavLink to="/services" activeClassName="selected" className="nav-link">Services</NavLink>
+            <NavLink to="/about" activeClassName="selected" className="nav-link">About</NavLink>
+            <NavLink to="/news" activeClassName="selected" className="nav-link">News</NavLink>
+            <NavLink to="/contact" activeClassName="selected" className="nav-link">Contact</NavLink>
          </Nav>
       </Navbar.Collapse>
    </Navbar>
